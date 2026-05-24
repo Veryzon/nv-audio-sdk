@@ -1,0 +1,219 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_NVIDIA              ICON    DISCARDABLE     "..\\common\\resources\\nvidia.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_OPENALWAVE_DIALOG DIALOGEX 0, 0, 282, 334
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "OpenALWave"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Mono Test",IDC_STATIC,17,18,247,59
+    CONTROL         "Front Left",IDC_FRONTLEFT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,28,43,49,10
+    CONTROL         "Back Left",IDC_BACKLEFT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,28,59,58,10
+    CONTROL         "Center",IDC_FRONTCENTER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,86,43,40,10
+    CONTROL         "Front Right",IDC_FRONTRIGHT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,132,43,52,10
+    CONTROL         "Back Right",IDC_BACKRIGHT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,132,59,51,10
+    PUSHBUTTON      "Play",IDC_MONO_BUTTON,203,41,48,16
+    LTEXT           "While stopped, select the desired output channels:",
+                    IDC_STATIC,27,30,191,8
+    GROUPBOX        "Stereo Test",IDC_STATIC,17,84,77,37
+    PUSHBUTTON      "Play",IDC_STEREO_BUTTON,31,98,48,16
+    GROUPBOX        "Quad Test",IDC_STATIC,104,84,77,37
+    PUSHBUTTON      "Play",IDC_QUAD_BUTTON,118,98,48,16
+    GROUPBOX        "5.1 Test",IDC_STATIC,190,84,75,37
+    PUSHBUTTON      "Play",IDC_5POINT1_BUTTON,203,98,48,16
+    GROUPBOX        "PCM Test",IDC_STATIC,7,7,267,123
+    GROUPBOX        "NVIDIA ADPCM Test",IDC_STATIC,7,137,268,153
+    GROUPBOX        "Mono Test",IDC_STATIC,17,149,247,59
+    CONTROL         "Front Left",IDC_FRONTLEFT2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,27,175,49,10
+    CONTROL         "Back Left",IDC_BACKLEFT2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,27,191,58,10
+    CONTROL         "Center",IDC_FRONTCENTER2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,85,175,40,10
+    CONTROL         "Front Right",IDC_FRONTRIGHT2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,131,175,52,10
+    CONTROL         "Back Right",IDC_BACKRIGHT2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,131,191,51,10
+    PUSHBUTTON      "Play",IDC_MONO_BUTTON2,203,173,48,16
+    LTEXT           "While stopped, select the desired output channels:",
+                    IDC_STATIC,27,162,191,8
+    GROUPBOX        "Stereo Test",IDC_STATIC,17,214,247,40
+    PUSHBUTTON      "Play",IDC_STEREO_BUTTON2,31,228,220,16
+    CONTROL         "Stream Sources",IDC_STREAM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,107,302,66,15
+    CONTROL         "Align Buffer Boundaries for Streams",IDC_ALIGN,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,76,265,130,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "OpenALWave.bin"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "OpenALWave MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "OpenALWave\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "OpenALWave.EXE\0"
+            VALUE "ProductName", "OpenALWave Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_OPENALWAVE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 275
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 327
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

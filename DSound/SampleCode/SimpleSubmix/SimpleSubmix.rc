@@ -1,0 +1,174 @@
+//Microsoft Developer Studio generated resource script.
+//
+ /***************************************************************************\
+|*                                                                           *|
+|*            Copyright NVIDIA Corporation.  All rights reserved.            *|
+|*                                                                           *|
+|*     NOTICE TO USER:   The source code  is copyrighted under  U.S. and     *|
+|*     international laws.  Users and possessors of this source code are     *|
+|*     hereby granted a nonexclusive,  royalty-free copyright license to     *|
+|*     use this code in individual and commercial software.                  *|
+|*                                                                           *|
+|*     Any use of this source code must include,  in the user documenta-     *|
+|*     tion and  internal comments to the code,  notices to the end user     *|
+|*     as follows:                                                           *|
+|*                                                                           *|
+|*     NVIDIA CORPORATION MAKES NO REPRESENTATION ABOUT THE  SUITABILITY     *|
+|*     OF  THIS SOURCE  CODE  FOR ANY PURPOSE.  IT IS  PROVIDED  "AS IS"     *|
+|*     WITHOUT EXPRESS OR IMPLIED WARRANTY OF  ANY KIND.  NVIDIA CORPOR-     *|
+|*     ATION DISCLAIMS ALL WARRANTIES  WITH REGARD  TO THIS SOURCE CODE,     *|
+|*     INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY, NONINFRINGE-     *|
+|*     MENT,  AND FITNESS  FOR A PARTICULAR PURPOSE.   IN NO EVENT SHALL     *|
+|*     NVIDIA CORPORATION  BE LIABLE FOR  ANY SPECIAL,  INDIRECT,  INCI-     *|
+|*     DENTAL, OR CONSEQUENTIAL DAMAGES,  OR ANY DAMAGES  WHATSOEVER RE-     *|
+|*     SULTING FROM LOSS OF USE,  DATA OR PROFITS,  WHETHER IN AN ACTION     *|
+|*     OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,  ARISING OUT OF     *|
+|*     OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOURCE CODE.     *|
+|*                                                                           *|
+|*     U.S. Government  End  Users.   This source code  is a "commercial     *|
+|*     item,"  as that  term is  defined at  48 C.F.R. 2.101 (OCT 1995),     *|
+|*     consisting  of "commercial  computer  software"  and  "commercial     *|
+|*     computer  software  documentation,"  as such  terms  are  used in     *|
+|*     48 C.F.R. 12.212 (SEPT 1995)  and is provided to the U.S. Govern-     *|
+|*     ment only as  a commercial end item.   Consistent with  48 C.F.R.     *|
+|*     12.212 and  48 C.F.R. 227.7202-1 through  227.7202-4 (JUNE 1995),     *|
+|*     all U.S. Government End Users  acquire the source code  with only     *|
+|*     those rights set forth herein.                                        *|
+|*                                                                           *|
+|*                                                                    Rev A  *|
+ \***************************************************************************/
+
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_NVIDIA              ICON    DISCARDABLE     "..\\common\\resources\\nvidia.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SIMPLESUBMIX DIALOGEX 0, 0, 256, 265
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "SimpleSubmix"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,98,238,49,16
+    PUSHBUTTON      "Open",IDC_OPEN1,11,54,37,16
+    EDITTEXT        IDC_FILE1,53,54,181,16,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Play",IDC_PLAY,98,176,49,16
+    PUSHBUTTON      "Stop",IDC_STOP,98,196,49,16
+    GROUPBOX        "Open a group of wave files to attach to a Submix",
+                    IDC_STATIC,3,37,242,133
+    PUSHBUTTON      "Open",IDC_OPEN2,11,72,37,16
+    PUSHBUTTON      "Open",IDC_OPEN3,11,89,37,16
+    PUSHBUTTON      "Open",IDC_OPEN4,11,107,37,16
+    PUSHBUTTON      "Open",IDC_OPEN5,11,126,37,16
+    PUSHBUTTON      "Open",IDC_OPEN6,11,144,37,16
+    EDITTEXT        IDC_FILE2,53,72,181,16,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_FILE3,53,89,181,16,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_FILE4,53,107,181,16,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_FILE5,53,126,181,16,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_FILE6,53,144,181,16,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "This program will attach up to 6 2D mono wave files to a single Submix.\nThen the 3D Submix will orbit the user in real time. Files can be added\nwhile the Submix is playing.",
+                    IDC_STATIC,7,6,234,30
+    CONTROL         200,IDC_GRID,"Static",SS_BITMAP | SS_SUNKEN | WS_BORDER,
+                    4,176,89,82,WS_EX_CLIENTEDGE
+    CONTROL         "Auto Orbit",IDC_ORBIT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,98,220,47,10
+    LTEXT           "Select 'Auto Orbit' to have the Submix circle around the listener. Or the user can move the sounds around manually with the mouse by pressing the left mouse button in the grid and moving the red dot which represents the sound.",
+                    IDC_STATIC,157,178,87,76
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_GRID                BITMAP  DISCARDABLE     "..\\common\\resources\\grid.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "SimpleSubmix"
+    IDC_SIMPLESUBMIX        "SIMPLESUBMIX"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

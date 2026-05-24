@@ -1,0 +1,114 @@
+//************************************************************************
+// File: SimpleOrbiter.h
+//
+// Class: COrbiter
+//
+// Description: This class controls one plane of an orbiter control.
+//
+//************************************************************************
+
+ /***************************************************************************\
+|*                                                                           *|
+|*            Copyright NVIDIA Corporation.  All rights reserved.            *|
+|*                                                                           *|
+|*     NOTICE TO USER:   The source code  is copyrighted under  U.S. and     *|
+|*     international laws.  Users and possessors of this source code are     *|
+|*     hereby granted a nonexclusive,  royalty-free copyright license to     *|
+|*     use this code in individual and commercial software.                  *|
+|*                                                                           *|
+|*     Any use of this source code must include,  in the user documenta-     *|
+|*     tion and  internal comments to the code,  notices to the end user     *|
+|*     as follows:                                                           *|
+|*                                                                           *|
+|*     NVIDIA CORPORATION MAKES NO REPRESENTATION ABOUT THE  SUITABILITY     *|
+|*     OF  THIS SOURCE  CODE  FOR ANY PURPOSE.  IT IS  PROVIDED  "AS IS"     *|
+|*     WITHOUT EXPRESS OR IMPLIED WARRANTY OF  ANY KIND.  NVIDIA CORPOR-     *|
+|*     ATION DISCLAIMS ALL WARRANTIES  WITH REGARD  TO THIS SOURCE CODE,     *|
+|*     INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY, NONINFRINGE-     *|
+|*     MENT,  AND FITNESS  FOR A PARTICULAR PURPOSE.   IN NO EVENT SHALL     *|
+|*     NVIDIA CORPORATION  BE LIABLE FOR  ANY SPECIAL,  INDIRECT,  INCI-     *|
+|*     DENTAL, OR CONSEQUENTIAL DAMAGES,  OR ANY DAMAGES  WHATSOEVER RE-     *|
+|*     SULTING FROM LOSS OF USE,  DATA OR PROFITS,  WHETHER IN AN ACTION     *|
+|*     OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,  ARISING OUT OF     *|
+|*     OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOURCE CODE.     *|
+|*                                                                           *|
+|*     U.S. Government  End  Users.   This source code  is a "commercial     *|
+|*     item,"  as that  term is  defined at  48 C.F.R. 2.101 (OCT 1995),     *|
+|*     consisting  of "commercial  computer  software"  and  "commercial     *|
+|*     computer  software  documentation,"  as such  terms  are  used in     *|
+|*     48 C.F.R. 12.212 (SEPT 1995)  and is provided to the U.S. Govern-     *|
+|*     ment only as  a commercial end item.   Consistent with  48 C.F.R.     *|
+|*     12.212 and  48 C.F.R. 227.7202-1 through  227.7202-4 (JUNE 1995),     *|
+|*     all U.S. Government End Users  acquire the source code  with only     *|
+|*     those rights set forth herein.                                        *|
+|*                                                                           *|
+|*                                                                    Rev A  *|
+ \***************************************************************************/
+
+//
+// Defines
+//
+#define TIMER_EVENT             1
+#define ORBIT_MAX_RADIUS        5.0f
+#define SMOOTHFACTOR            5
+
+//
+// Class definition
+//
+class COrbiter
+{
+
+public:
+
+    COrbiter();
+    ~COrbiter();
+
+    HRESULT                 Initialize( HWND hDlg, 
+                                        LPKSPROPERTYSET pKsPropSet, 
+                                        LPDIRECTSOUND3DLISTENER pDSListener );
+
+    VOID                    SetMouseState(BOOL state) { m_UseMouse = state; }
+    VOID                    OnMouseMovement( HWND hDlg );
+    VOID                    OnMovementTimer( HWND hDlg );
+
+    VOID                    SetDSBuffer( LPDIRECTSOUNDBUFFER pDSB );
+
+private:
+
+    // Methods
+
+    VOID                    KillInternalTimer( void );
+    VOID                    UpdateGrid( HWND hDlg, FLOAT x, FLOAT y );
+    VOID                    SetObjectProperties( DS3DVECTOR* pvPosition, DS3DVECTOR* pvVelocity );
+
+    // Variables
+
+    HWND                    m_hDlg;
+
+    LPKSPROPERTYSET         m_pKsPropSet;           // Property Set pointer
+    LPDIRECTSOUND3DLISTENER m_pDSListener;          // 3D listener object
+    LPDIRECTSOUNDBUFFER     m_pDSB;                 // Pointer to Direct Sound buffer.
+
+    DS3DBUFFER              m_DsBufferParams;       // 3D buffer parameters
+    DS3DLISTENER            m_DsListenerParams;     // Listener parameters
+    DS3DVECTOR              m_vPosition;
+    DS3DVECTOR              m_vVelocity;
+
+    BOOL                    m_bAllowMovementTimer;
+    WORD                    m_UseMouse;
+    float                   m_OrbitRadius;
+    float                   m_fx;
+    float                   m_fy;
+    float                   m_fz;
+
+    LONG                    m_lPixel[5];
+    LONG                    m_lX;
+    LONG                    m_lY;
+
+    CRITICAL_SECTION        m_CriticalSectionTimer;
+
+};
+
+//************************************************************************
+// End of File: SimpleOrbiter.h
+//************************************************************************

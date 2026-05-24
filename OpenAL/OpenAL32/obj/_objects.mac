@@ -1,0 +1,48 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\openal32.res \
+    $(_OBJ_DIR)\i386\allist.obj \
+    $(_OBJ_DIR)\i386\albuffer.obj \
+    $(_OBJ_DIR)\i386\aleax.obj \
+    $(_OBJ_DIR)\i386\alerror.obj \
+    $(_OBJ_DIR)\i386\alextension.obj \
+    $(_OBJ_DIR)\i386\allistener.obj \
+    $(_OBJ_DIR)\i386\alsource.obj \
+    $(_OBJ_DIR)\i386\alstate.obj \
+    $(_OBJ_DIR)\i386\alu.obj \
+    $(_OBJ_DIR)\i386\alc.obj \
+    $(_OBJ_DIR)\i386\openal32.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\openal32.res \
+    $(_OBJ_DIR)\ia64\allist.obj \
+    $(_OBJ_DIR)\ia64\albuffer.obj \
+    $(_OBJ_DIR)\ia64\aleax.obj \
+    $(_OBJ_DIR)\ia64\alerror.obj \
+    $(_OBJ_DIR)\ia64\alextension.obj \
+    $(_OBJ_DIR)\ia64\allistener.obj \
+    $(_OBJ_DIR)\ia64\alsource.obj \
+    $(_OBJ_DIR)\ia64\alstate.obj \
+    $(_OBJ_DIR)\ia64\alu.obj \
+    $(_OBJ_DIR)\ia64\alc.obj \
+    $(_OBJ_DIR)\ia64\openal32.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\openal32.res \
+    $(_OBJ_DIR)\amd64\allist.obj \
+    $(_OBJ_DIR)\amd64\albuffer.obj \
+    $(_OBJ_DIR)\amd64\aleax.obj \
+    $(_OBJ_DIR)\amd64\alerror.obj \
+    $(_OBJ_DIR)\amd64\alextension.obj \
+    $(_OBJ_DIR)\amd64\allistener.obj \
+    $(_OBJ_DIR)\amd64\alsource.obj \
+    $(_OBJ_DIR)\amd64\alstate.obj \
+    $(_OBJ_DIR)\amd64\alu.obj \
+    $(_OBJ_DIR)\amd64\alc.obj \
+    $(_OBJ_DIR)\amd64\openal32.obj
+
+PASS0_AMD64_OBJECTS=
+

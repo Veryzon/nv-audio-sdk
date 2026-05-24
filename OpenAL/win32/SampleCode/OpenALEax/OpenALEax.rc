@@ -1,0 +1,330 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_NVIDIA              ICON    DISCARDABLE     "..\\common\\resources\\nvidia.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_EAXBUF DIALOGEX 0, 0, 393, 243
+STYLE DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "EAX Buffer Properties"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "PLAY",IDC_PLAY,44,213,43,18
+    DEFPUSHBUTTON   "STOP",IDC_STOP,109,213,43,18
+    CONTROL         "",IDC_EAXBUF_ROOM,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,29,108,13
+    GROUPBOX        "Room",IDC_STATIC,7,7,204,124
+    LTEXT           "Volume",IDC_STATIC,15,19,112,9
+    CTEXT           "Static",IDC_EAXBUF_ROOM_VALUE,123,30,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_EAXBUF_ROOMHF,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,58,108,13
+    LTEXT           "High Frequency Volume",IDC_STATIC,15,46,139,9
+    CTEXT           "Static",IDC_EAXBUF_ROOMHF_VALUE,123,58,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "Auto",IDC_EAXBUF_AUTO_ROOM,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,171,28,36,16
+    CONTROL         "Auto",IDC_EAXBUF_AUTO_ROOMHF,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,171,55,36,16
+    CONTROL         "",IDC_EAXBUF_DIRECT,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,156,108,13
+    GROUPBOX        "Direct Path",IDC_STATIC,7,134,204,72
+    LTEXT           "Volume",IDC_STATIC,15,147,112,9
+    CTEXT           "Static",IDC_EAXBUF_DIRECT_VALUE,123,158,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_EAXLBUF_DIRECTHF,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,185,108,13
+    LTEXT           "High Frequency Level",IDC_STATIC,15,174,139,9
+    CTEXT           "Static",IDC_EAXBUF_DIRECTHF_VALUE,123,185,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "Auto",IDC_EAXBUFF_AUTO_DIRECTHF,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,171,182,36,16
+    CONTROL         "",IDC_EAXBUF_ROOMROLLOFF,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,83,108,13
+    LTEXT           "Rolloff Factor",IDC_STATIC,15,73,112,9
+    CTEXT           "Static",IDC_EAXBUF_ROOMROLLOFF_VALUE,123,83,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_EAXBUF_AIRABSORPTION,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,111,108,13
+    LTEXT           "Air Absorption Factor",IDC_STATIC,15,100,139,9
+    CTEXT           "Static",IDC_EAXBUF_AIRABSORPTION_VALUE,123,111,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_EAXLBUF_OUTSIDEHF,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,225,217,108,13
+    LTEXT           "Outside Cone High Frequency Volume",IDC_STATIC,227,206,
+                    139,9
+    CTEXT           "Static",IDC_EAXBUF_OUTSIDEHF_VALUE,335,217,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_EAXBUF_OBSTRUCTION,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,226,29,108,13
+    GROUPBOX        "Obstruction",IDC_STATIC,220,7,166,72
+    LTEXT           "Volume",IDC_STATIC,228,20,112,9
+    CTEXT           "Static",IDC_EAXBUF_OBSTRUCTION_VALUE,336,31,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_EAXLBUF_OBSTRUCTIONLF,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,226,58,108,13
+    LTEXT           "Low Frequency Volume Ratio",IDC_STATIC,228,47,139,9
+    CTEXT           "Static",IDC_EAXBUF_OBSTRUCTIONLF_VALUE,336,58,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_EAXBUF_OCCLUSION,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,226,109,108,13
+    GROUPBOX        "Occlusion",IDC_STATIC,220,87,166,99
+    LTEXT           "Volume",IDC_STATIC,228,100,112,9
+    CTEXT           "Static",IDC_EAXBUF_OCCLUSION_VALUE,336,111,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_EAXLBUF_OCCLUSIONLF,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,226,138,108,13
+    LTEXT           "Low Frequency Volume Ratio",IDC_STATIC,228,127,139,9
+    CTEXT           "Static",IDC_EAXBUF_OCCLUSIONLF_VALUE,336,138,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_EAXLBUF_OCCLUSIONROOM,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,226,166,108,13
+    LTEXT           "Room Volume Ratio",IDC_STATIC,228,155,139,9
+    CTEXT           "Static",IDC_EAXBUF_OCCLUSIONROOM_VALUE,336,166,42,11,0,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "Miscellaneous",IDC_STATIC,220,192,166,44
+END
+
+IDD_EAXLIST DIALOGEX 0, 0, 393, 243
+STYLE DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "EAX Listener Properties"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         "",IDC_EAXLIST_ENVIRONMENT_SIZE,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_TOP | TBS_NOTICKS | WS_TABSTOP,13,58,
+                    108,13
+    COMBOBOX        IDC_EAXLIST_ENVIRONMENT_PRESET,13,31,153,83,
+                    CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Environment",IDC_STATIC,7,7,166,99
+    LTEXT           "Preset",IDC_STATIC,15,18,40,10
+    LTEXT           "Size",IDC_STATIC,16,48,33,9
+    CTEXT           "Static",IDC_EAXLIST_ENVIRONMENT_SIZE_VALUE,123,59,42,11,
+                    0,WS_EX_STATICEDGE
+    CONTROL         "",IDC_EAXLIST_ENVIRONMENT_DIFFUSION,"msctls_trackbar32",
+                    TBS_TOP | TBS_NOTICKS | WS_TABSTOP,13,87,108,13
+    LTEXT           "Diffusion",IDC_STATIC,16,76,33,9
+    CTEXT           "Static",IDC_EAXLIST_ENVIRONMENT_DIFFUSION_VALUE,123,87,
+                    42,11,0,WS_EX_STATICEDGE
+    CONTROL         "",IDC_EAXLIST_ROOM,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,133,108,13
+    GROUPBOX        "Room",IDC_STATIC,7,111,166,125
+    LTEXT           "Volume",IDC_STATIC,15,123,112,9
+    CTEXT           "Static",IDC_EAXLIST_ROOM_VALUE,123,134,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_EAXLIST_ROOMHF,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,162,108,13
+    LTEXT           "High Frequency Volume",IDC_STATIC,15,150,139,9
+    CTEXT           "Static",IDC_EAXLIST_ROOMHF_VALUE,123,162,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_EAXLIST_ROOMROLLOFF,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,188,108,13
+    LTEXT           "Rolloff Factor",IDC_STATIC,15,178,112,9
+    CTEXT           "Static",IDC_EAXLIST_ROOMROLLOFF_VALUE,123,188,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_EAXLIST_AIRABSORPTION,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,216,108,13
+    LTEXT           "High Frequency Air Absorption",IDC_STATIC,15,205,139,9
+    CTEXT           "Static",IDC_EAXLIST_AIRABSORPTION_VALUE,123,216,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_EAXLIST_REFLECTIONS,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,187,29,108,13
+    GROUPBOX        "Reflections",IDC_STATIC,181,7,204,72
+    LTEXT           "Volume",IDC_STATIC,189,18,112,9
+    CTEXT           "Static",IDC_EAXLIST_REFLECTIONS_VALUE,297,30,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_EAXLIST_REFLECTIONSDELAY,"msctls_trackbar32",
+                    TBS_TOP | TBS_NOTICKS | WS_TABSTOP,187,58,108,13
+    LTEXT           "Initial Delay",IDC_STATIC,189,46,139,9
+    CTEXT           "Static",IDC_EAXLIST_REFLECTIONSDELAY_VALUE,297,58,42,11,
+                    0,WS_EX_STATICEDGE
+    CONTROL         "Scale",IDC_EAXLIST_SCALE_REFLECTIONS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,345,28,36,16
+    CONTROL         "Scale",IDC_EAXLIST_SCALE_REFLECTIONSDELAY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,345,55,36,16
+    CONTROL         "",IDC_EAXLIST_REVERB,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,188,109,108,13
+    GROUPBOX        "Reverb",IDC_STATIC,182,84,204,73
+    LTEXT           "Volume",IDC_STATIC,190,98,112,9
+    CTEXT           "Static",IDC_EAXLIST_REVERB_VALUE,298,110,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_EAXLIST_REVERBDELAY,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,188,138,108,13
+    LTEXT           "Initial Delay",IDC_STATIC,190,126,139,9
+    CTEXT           "Static",IDC_EAXLIST_REVERBDELAY_VALUE,298,138,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "Scale",IDC_EAXLIST_SCALE_REVERB,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,346,107,36,16
+    CONTROL         "Scale",IDC_EAXLIST_SCALE_REVERBDELAY,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,346,135,36,16
+    CONTROL         "",IDC_EAXLIST_DECAYTIME,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,188,189,108,13
+    GROUPBOX        "Decay",IDC_STATIC,182,164,204,72
+    LTEXT           "Time",IDC_STATIC,190,179,112,9
+    CTEXT           "Static",IDC_EAXLIST_DECAYTIME_VALUE,298,189,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_EAXLIST_DECAYHF,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,188,217,108,13
+    LTEXT           "High:Low Frequency Ratio",IDC_STATIC,190,206,139,9
+    CTEXT           "Static",IDC_EAXLIST_DECAYHF_VALUE,298,217,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "Scale",IDC_EAXLIST_SCALE_DECAYTIME,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,346,187,36,16
+    CONTROL         "Clip",IDC_EAXLIST_CLIP_DECAY,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,346,214,36,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "OpenALEax.bin"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "OpenALEax MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "OpenALEax\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "OpenALEax.EXE\0"
+            VALUE "ProductName", "OpenALEax Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PROPSHT_CAPTION     "NVIDIA OpenAL EAX Studio"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

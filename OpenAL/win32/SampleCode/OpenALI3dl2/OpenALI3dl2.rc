@@ -1,0 +1,292 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_NVIDIA              ICON    DISCARDABLE     "..\\common\\resources\\nvidia.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_I3DL2BUF DIALOGEX 0, 0, 359, 218
+STYLE DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "I3DL2 Buffer Properties"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "PLAY",IDC_PLAY,123,191,43,18
+    DEFPUSHBUTTON   "STOP",IDC_STOP,187,191,43,18
+    CONTROL         "",IDC_I3DL2BUF_ROOM,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,29,108,13
+    GROUPBOX        "Room",IDC_STATIC,7,7,166,96
+    LTEXT           "Volume",IDC_STATIC,15,19,112,9
+    CTEXT           "Static",IDC_I3DL2BUF_ROOM_VALUE,123,30,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_I3DL2BUF_ROOMHF,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,58,108,13
+    LTEXT           "High Frequency Volume",IDC_STATIC,15,46,139,9
+    CTEXT           "Static",IDC_I3DL2BUF_ROOMHF_VALUE,123,58,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_I3DL2BUF_ROOMROLLOFF,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,83,108,13
+    LTEXT           "Rolloff Factor",IDC_STATIC,15,73,112,9
+    CTEXT           "Static",IDC_I3DL2BUF_ROOMROLLOFF_VALUE,123,83,42,11,0,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "Direct Path",IDC_STATIC,7,106,166,72
+    CONTROL         "",IDC_I3DL2BUF_DIRECT,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,128,108,13
+    LTEXT           "Volume",IDC_STATIC,15,119,112,9
+    CTEXT           "Static",IDC_I3DL2BUF_DIRECT_VALUE,123,130,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_I3DL2BUF_DIRECTHF,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,157,108,13
+    LTEXT           "High Frequency Level",IDC_STATIC,15,146,104,9
+    CTEXT           "Static",IDC_I3DL2BUF_DIRECTHF_VALUE,123,157,42,11,0,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "Obstruction",IDC_STATIC,183,20,166,72
+    CONTROL         "",IDC_I3DL2BUF_OBSTRUCTION,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,189,42,108,13
+    LTEXT           "Volume",IDC_STATIC,191,33,112,9
+    CTEXT           "Static",IDC_I3DL2BUF_OBSTRUCTION_VALUE,299,44,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_I3DL2BUF_OBSTRUCTIONLF,"msctls_trackbar32",
+                    TBS_TOP | TBS_NOTICKS | WS_TABSTOP,189,71,108,13
+    LTEXT           "Low Frequency Volume Ratio",IDC_STATIC,191,60,139,9
+    CTEXT           "Static",IDC_I3DL2BUF_OBSTRUCTIONLF_VALUE,299,71,42,11,0,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "Occlusion",IDC_STATIC,183,96,166,72
+    CONTROL         "",IDC_I3DL2BUF_OCCLUSION,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,189,118,108,13
+    LTEXT           "Volume",IDC_STATIC,191,109,112,9
+    CTEXT           "Static",IDC_I3DL2BUF_OCCLUSION_VALUE,299,120,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_I3DL2BUF_OCCLUSIONLF,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,189,147,108,13
+    LTEXT           "Low Frequency Volume Ratio",IDC_STATIC,191,136,139,9
+    CTEXT           "Static",IDC_I3DL2BUF_OCCLUSIONLF_VALUE,299,147,42,11,0,
+                    WS_EX_STATICEDGE
+END
+
+IDD_I3DL2LIST DIALOGEX 0, 0, 355, 243
+STYLE DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "I3DL2 Listener Properties"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    GROUPBOX        "Environment",IDC_STATIC,7,22,166,99
+    LTEXT           "Density",IDC_STATIC,16,34,33,9
+    CONTROL         "",IDC_I3DL2LIST_DENSITY,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_TOP | TBS_NOTICKS | WS_TABSTOP,13,44,
+                    108,13
+    CTEXT           "Static",IDC_I3DL2LIST_DENSITY_VALUE,123,45,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_I3DL2LIST_DIFFUSION,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,73,108,13
+    LTEXT           "Diffusion",IDC_STATIC,16,62,33,9
+    CTEXT           "Static",IDC_I3DL2LIST_DIFFUSION_VALUE,123,73,42,11,0,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "Room",IDC_STATIC,7,133,166,94
+    CONTROL         "",IDC_I3DL2LIST_ROOM,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,153,108,13
+    LTEXT           "Volume",IDC_STATIC,15,143,112,9
+    CTEXT           "Static",IDC_I3DL2LIST_ROOM_VALUE,123,154,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_I3DL2LIST_ROOMHF,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,182,108,13
+    LTEXT           "High Frequency Volume",IDC_STATIC,15,170,139,9
+    CTEXT           "Static",IDC_I3DL2LIST_ROOMHF_VALUE,123,182,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_I3DL2LIST_ROOMROLLOFF,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,208,108,13
+    LTEXT           "Rolloff Factor",IDC_STATIC,15,198,112,9
+    CTEXT           "Static",IDC_I3DL2LIST_ROOMROLLOFF_VALUE,123,208,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_I3DL2LIST_REFLECTIONS,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,187,29,108,13
+    GROUPBOX        "Reflections",IDC_STATIC,181,7,166,72
+    LTEXT           "Volume",IDC_STATIC,189,18,112,9
+    CTEXT           "Static",IDC_I3DL2LIST_REFLECTIONS_VALUE,297,30,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_I3DL2LIST_REFLECTIONSDELAY,"msctls_trackbar32",
+                    TBS_TOP | TBS_NOTICKS | WS_TABSTOP,187,58,108,13
+    LTEXT           "Initial Delay",IDC_STATIC,189,46,139,9
+    CTEXT           "Static",IDC_I3DL2LIST_REFLECTIONSDELAY_VALUE,297,58,42,
+                    11,0,WS_EX_STATICEDGE
+    CONTROL         "",IDC_I3DL2LIST_REVERB,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,188,109,108,13
+    GROUPBOX        "Reverb",IDC_STATIC,182,84,166,73
+    LTEXT           "Volume",IDC_STATIC,190,98,112,9
+    CTEXT           "Static",IDC_I3DL2LIST_REVERB_VALUE,298,110,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_I3DL2LIST_REVERBDELAY,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,188,138,108,13
+    LTEXT           "Initial Delay",IDC_STATIC,190,126,139,9
+    CTEXT           "Static",IDC_I3DL2LIST_REVERBDELAY_VALUE,298,138,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_I3DL2LIST_DECAYTIME,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,188,189,108,13
+    GROUPBOX        "Decay",IDC_STATIC,182,164,166,73
+    LTEXT           "Time",IDC_STATIC,190,179,112,9
+    CTEXT           "Static",IDC_I3DL2LIST_DECAYTIME_VALUE,298,189,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_I3DL2LIST_HFREFERENCE,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,13,101,108,13
+    LTEXT           "High Frequency Reference",IDC_STATIC,15,90,139,9
+    CTEXT           "Static",IDC_I3DL2LIST_HFREFERENCE_VALUE,123,101,42,11,0,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_I3DL2LIST_DECAYHF,"msctls_trackbar32",TBS_TOP | 
+                    TBS_NOTICKS | WS_TABSTOP,188,217,108,13
+    LTEXT           "High:Low Frequency Ratio",IDC_STATIC,190,206,139,9
+    CTEXT           "Static",IDC_I3DL2LIST_DECAYHF_VALUE,298,217,42,11,0,
+                    WS_EX_STATICEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24      DISCARDABLE     "OpenALI3dl2.bin"
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "OpenALI3dl2 MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "OpenALI3dl2\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "OpenALI3dl2.EXE\0"
+            VALUE "ProductName", "OpenALI3dl2 Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PROPSHT_CAPTION     "NVIDIA OpenAL I3DL2 Studio"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

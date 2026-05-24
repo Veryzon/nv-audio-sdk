@@ -1,0 +1,178 @@
+//Microsoft Developer Studio generated resource script.
+//
+ /***************************************************************************\
+|*                                                                           *|
+|*            Copyright NVIDIA Corporation.  All rights reserved.            *|
+|*                                                                           *|
+|*     NOTICE TO USER:   The source code  is copyrighted under  U.S. and     *|
+|*     international laws.  Users and possessors of this source code are     *|
+|*     hereby granted a nonexclusive,  royalty-free copyright license to     *|
+|*     use this code in individual and commercial software.                  *|
+|*                                                                           *|
+|*     Any use of this source code must include,  in the user documenta-     *|
+|*     tion and  internal comments to the code,  notices to the end user     *|
+|*     as follows:                                                           *|
+|*                                                                           *|
+|*     NVIDIA CORPORATION MAKES NO REPRESENTATION ABOUT THE  SUITABILITY     *|
+|*     OF  THIS SOURCE  CODE  FOR ANY PURPOSE.  IT IS  PROVIDED  "AS IS"     *|
+|*     WITHOUT EXPRESS OR IMPLIED WARRANTY OF  ANY KIND.  NVIDIA CORPOR-     *|
+|*     ATION DISCLAIMS ALL WARRANTIES  WITH REGARD  TO THIS SOURCE CODE,     *|
+|*     INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY, NONINFRINGE-     *|
+|*     MENT,  AND FITNESS  FOR A PARTICULAR PURPOSE.   IN NO EVENT SHALL     *|
+|*     NVIDIA CORPORATION  BE LIABLE FOR  ANY SPECIAL,  INDIRECT,  INCI-     *|
+|*     DENTAL, OR CONSEQUENTIAL DAMAGES,  OR ANY DAMAGES  WHATSOEVER RE-     *|
+|*     SULTING FROM LOSS OF USE,  DATA OR PROFITS,  WHETHER IN AN ACTION     *|
+|*     OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION,  ARISING OUT OF     *|
+|*     OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOURCE CODE.     *|
+|*                                                                           *|
+|*     U.S. Government  End  Users.   This source code  is a "commercial     *|
+|*     item,"  as that  term is  defined at  48 C.F.R. 2.101 (OCT 1995),     *|
+|*     consisting  of "commercial  computer  software"  and  "commercial     *|
+|*     computer  software  documentation,"  as such  terms  are  used in     *|
+|*     48 C.F.R. 12.212 (SEPT 1995)  and is provided to the U.S. Govern-     *|
+|*     ment only as  a commercial end item.   Consistent with  48 C.F.R.     *|
+|*     12.212 and  48 C.F.R. 227.7202-1 through  227.7202-4 (JUNE 1995),     *|
+|*     all U.S. Government End Users  acquire the source code  with only     *|
+|*     those rights set forth herein.                                        *|
+|*                                                                           *|
+|*                                                                    Rev A  *|
+ \***************************************************************************/
+
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_NVIDIA              ICON    DISCARDABLE     "..\\common\\resources\\nvidia.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SIMPLEFX DIALOG DISCARDABLE  0, 0, 216, 308
+STYLE DS_MODALFRAME | DS_3DLOOK | DS_CENTER | WS_POPUP | WS_VISIBLE | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "SimpleFx"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,157,288,49,16
+    PUSHBUTTON      "Open A Wave File",IDC_OPEN,13,20,181,16
+    EDITTEXT        IDC_EDIT_FILENAME,13,42,181,16,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    CONTROL         "List1",IDC_LISTVIEW,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,
+                    14,129,182,121
+    PUSHBUTTON      "Play",IDC_PLAY,5,288,49,16
+    PUSHBUTTON      "Stop",IDC_STOP,57,288,49,16
+    GROUPBOX        "Select an Effect to Use",IDC_STATIC,5,70,201,41
+    GROUPBOX        "Edit Selected Effect's Parameters",IDC_STATIC,5,116,201,
+                    164
+    CONTROL         "Slider1",IDC_SLIDER,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    WS_TABSTOP,14,254,181,23
+    COMBOBOX        IDC_COMBO,18,86,94,156,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Start Here:",IDC_STATIC,5,7,201,60
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_SIMPLEFX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 209
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 301
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_APP_TITLE           "SimpleFx"
+    IDC_SIMPLEFX            "SIMPLEFX"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

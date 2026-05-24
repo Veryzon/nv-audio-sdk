@@ -1,0 +1,376 @@
+ OpenAL32
+
+ Timestamp is 3d7cdfe1 (Mon Sep 09 10:52:33 2002)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000000d4H .idata$5                CODE
+ 0001:000000e0 00000a18H .rdata                  CODE
+ 0001:00000af8 00000064H .rdata$debug            CODE
+ 0001:00000b60 0000777cH .text                   CODE
+ 0001:000082dc 00000064H .idata$2                CODE
+ 0001:00008340 00000014H .idata$3                CODE
+ 0001:00008354 000000d4H .idata$4                CODE
+ 0001:00008428 00000370H .idata$6                CODE
+ 0001:000087a0 000006f1H .edata                  CODE
+ 0002:00000000 00000310H .data                   DATA
+ 0002:00000310 000bb830H .bss                    DATA
+ 0003:00000000 00000058H .rsrc$01                DATA
+ 0003:00000060 00000320H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00009876       __ldused                   00009876     <absolute>
+ 0000:00009876       __fltused                  00009876     <absolute>
+ 0001:00000000       __imp__FindFirstFileA@8    00401000     kernel32:KERNEL32.dll
+ 0001:00000004       __imp__GetModuleHandleA@4  00401004     kernel32:KERNEL32.dll
+ 0001:00000008       __imp__LoadLibraryA@4      00401008     kernel32:KERNEL32.dll
+ 0001:0000000c       __imp__FreeLibrary@4       0040100c     kernel32:KERNEL32.dll
+ 0001:00000010       __imp__WaitForSingleObjectEx@12 00401010     kernel32:KERNEL32.dll
+ 0001:00000014       __imp__GetCurrentDirectoryA@8 00401014     kernel32:KERNEL32.dll
+ 0001:00000018       __imp__GetModuleFileNameA@12 00401018     kernel32:KERNEL32.dll
+ 0001:0000001c       __imp__EnterCriticalSection@4 0040101c     kernel32:KERNEL32.dll
+ 0001:00000020       __imp__InitializeCriticalSection@4 00401020     kernel32:KERNEL32.dll
+ 0001:00000024       __imp__DeleteCriticalSection@4 00401024     kernel32:KERNEL32.dll
+ 0001:00000028       __imp__LeaveCriticalSection@4 00401028     kernel32:KERNEL32.dll
+ 0001:0000002c       __imp__IsBadWritePtr@8     0040102c     kernel32:KERNEL32.dll
+ 0001:00000030       __imp__IsBadReadPtr@8      00401030     kernel32:KERNEL32.dll
+ 0001:00000034       __imp__SetEvent@4          00401034     kernel32:KERNEL32.dll
+ 0001:00000038       __imp__ExitThread@4        00401038     kernel32:KERNEL32.dll
+ 0001:0000003c       __imp__GetTickCount@0      0040103c     kernel32:KERNEL32.dll
+ 0001:00000040       __imp__GetProcAddress@8    00401040     kernel32:KERNEL32.dll
+ 0001:00000044       __imp__CreateThread@24     00401044     kernel32:KERNEL32.dll
+ 0001:00000048       __imp__CloseHandle@4       00401048     kernel32:KERNEL32.dll
+ 0001:0000004c       __imp__CreateEventA@16     0040104c     kernel32:KERNEL32.dll
+ 0001:00000050       __imp__FindClose@4         00401050     kernel32:KERNEL32.dll
+ 0001:00000054       __imp__GetLastError@0      00401054     kernel32:KERNEL32.dll
+ 0001:00000058       __imp__FindNextFileA@8     00401058     kernel32:KERNEL32.dll
+ 0001:0000005c       __imp__GetSystemDirectoryA@8 0040105c     kernel32:KERNEL32.dll
+ 0001:00000060       \177KERNEL32_NULL_THUNK_DATA 00401060     kernel32:KERNEL32.dll
+ 0001:00000064       __imp__GetForegroundWindow@0 00401064     user32:USER32.dll
+ 0001:00000068       __imp__GetMessageA@16      00401068     user32:USER32.dll
+ 0001:0000006c       __imp__PostThreadMessageA@16 0040106c     user32:USER32.dll
+ 0001:00000070       \177USER32_NULL_THUNK_DATA 00401070     user32:USER32.dll
+ 0001:00000074       __imp__waveOutOpen@24      00401074     winmm:WINMM.dll
+ 0001:00000078       __imp__timeEndPeriod@4     00401078     winmm:WINMM.dll
+ 0001:0000007c       __imp__waveOutReset@4      0040107c     winmm:WINMM.dll
+ 0001:00000080       __imp__timeGetDevCaps@8    00401080     winmm:WINMM.dll
+ 0001:00000084       __imp__timeBeginPeriod@4   00401084     winmm:WINMM.dll
+ 0001:00000088       __imp__timeSetEvent@20     00401088     winmm:WINMM.dll
+ 0001:0000008c       __imp__waveOutPrepareHeader@12 0040108c     winmm:WINMM.dll
+ 0001:00000090       __imp__waveOutWrite@12     00401090     winmm:WINMM.dll
+ 0001:00000094       __imp__waveOutClose@4      00401094     winmm:WINMM.dll
+ 0001:00000098       __imp__waveOutUnprepareHeader@12 00401098     winmm:WINMM.dll
+ 0001:0000009c       __imp__timeKillEvent@4     0040109c     winmm:WINMM.dll
+ 0001:000000a0       \177WINMM_NULL_THUNK_DATA  004010a0     winmm:WINMM.dll
+ 0001:000000a4       __imp__realloc             004010a4     msvcrt:msvcrt.dll
+ 0001:000000a8       __imp__free                004010a8     msvcrt:msvcrt.dll
+ 0001:000000ac       __imp___CIacos             004010ac     msvcrt:msvcrt.dll
+ 0001:000000b0       __imp___mbsicmp            004010b0     msvcrt:msvcrt.dll
+ 0001:000000b4       __imp___splitpath          004010b4     msvcrt:msvcrt.dll
+ 0001:000000b8       __imp___ftol               004010b8     msvcrt:msvcrt.dll
+ 0001:000000bc       __imp__malloc              004010bc     msvcrt:msvcrt.dll
+ 0001:000000c0       \177msvcrt_NULL_THUNK_DATA 004010c0     msvcrt:msvcrt.dll
+ 0001:000000c4       __imp__CoInitialize@4      004010c4     ole32:ole32.dll
+ 0001:000000c8       __imp__CoCreateInstance@20 004010c8     ole32:ole32.dll
+ 0001:000000cc       __imp__CoUninitialize@0    004010cc     ole32:ole32.dll
+ 0001:000000d0       \177ole32_NULL_THUNK_DATA  004010d0     ole32:ole32.dll
+ 0001:000000fc       _DSPROPSETID_EAX20_ListenerProperties 004010fc     aleax.obj
+ 0001:0000010c       _DSPROPSETID_EAX20_BufferProperties 0040110c     aleax.obj
+ 0001:0000011c       ??_C@_0BM@OJDCLOFE@AL_INVERSE_DISTANCE_CLAMPED?$AA@ 0040111c     alextension.obj
+ 0001:00000138       ??_C@_0BE@CIGHEFNP@AL_INVERSE_DISTANCE?$AA@ 00401138     alextension.obj
+ 0001:0000014c       ??_C@_0BC@PEEHLFOA@AL_DISTANCE_MODEL?$AA@ 0040114c     alextension.obj
+ 0001:00000160       ??_C@_0BE@ELEECACH@AL_DOPPLER_VELOCITY?$AA@ 00401160     alextension.obj
+ 0001:00000174       ??_C@_0BC@BOEGHNDH@AL_DOPPLER_FACTOR?$AA@ 00401174     alextension.obj
+ 0001:00000188       ??_C@_0O@DLBNHKAD@AL_EXTENSIONS?$AA@ 00401188     alextension.obj
+ 0001:00000198       ??_C@_0M@JEOBHCI@AL_RENDERER?$AA@ 00401198     alextension.obj
+ 0001:000001a4       ??_C@_0L@OCHMOCAM@AL_VERSION?$AA@ 004011a4     alextension.obj
+ 0001:000001b0       ??_C@_09MGMDHBFF@AL_VENDOR?$AA@ 004011b0     alextension.obj
+ 0001:000001bc       ??_C@_0BC@LDMEBPOO@ALC_INVALID_VALUE?$AA@ 004011bc     alextension.obj
+ 0001:000001d0       ??_C@_0BB@EKBMIIEF@ALC_INVALID_ENUM?$AA@ 004011d0     alextension.obj
+ 0001:000001e4       ??_C@_0BE@OFEBELKC@ALC_INVALID_CONTEXT?$AA@ 004011e4     alextension.obj
+ 0001:000001f8       ??_C@_0BD@JFMNGEGH@ALC_INVALID_DEVICE?$AA@ 004011f8     alextension.obj
+ 0001:0000020c       ??_C@_0N@BODFANPF@ALC_NO_ERROR?$AA@ 0040120c     alextension.obj
+ 0001:0000021c       ??_C@_0BB@DLCNKNGA@AL_OUT_OF_MEMORY?$AA@ 0040121c     alextension.obj
+ 0001:00000230       ??_C@_0BF@CDOLKCEN@AL_INVALID_OPERATION?$AA@ 00401230     alextension.obj
+ 0001:00000248       ??_C@_0BB@NELLCDLH@AL_INVALID_VALUE?$AA@ 00401248     alextension.obj
+ 0001:0000025c       ??_C@_0BA@OIGKBNNO@AL_INVALID_ENUM?$AA@ 0040125c     alextension.obj
+ 0001:0000026c       ??_C@_0BA@BNDFEEFJ@AL_INVALID_NAME?$AA@ 0040126c     alextension.obj
+ 0001:0000027c       ??_C@_0M@HNIDABO@AL_NO_ERROR?$AA@ 0040127c     alextension.obj
+ 0001:00000288       ??_C@_0P@NOPPAFNI@ALC_EXTENSIONS?$AA@ 00401288     alextension.obj
+ 0001:00000298       ??_C@_0BF@BGOOIAOB@ALC_DEVICE_SPECIFIER?$AA@ 00401298     alextension.obj
+ 0001:000002b0       ??_C@_0BN@GGDCIKOA@ALC_DEFAULT_DEVICE_SPECIFIER?$AA@ 004012b0     alextension.obj
+ 0001:000002d0       ??_C@_0BD@HPEOOPCD@ALC_ALL_ATTRIBUTES?$AA@ 004012d0     alextension.obj
+ 0001:000002e4       ??_C@_0BE@KKBHAGIH@ALC_ATTRIBUTES_SIZE?$AA@ 004012e4     alextension.obj
+ 0001:000002f8       ??_C@_0BC@NANONAHE@ALC_MINOR_VERSION?$AA@ 004012f8     alextension.obj
+ 0001:0000030c       ??_C@_0BC@IJNLDIGG@ALC_MAJOR_VERSION?$AA@ 0040130c     alextension.obj
+ 0001:00000320       ??_C@_07NJFHODD@AL_DATA?$AA@ 00401320     alextension.obj
+ 0001:00000328       ??_C@_07HEBDPFEA@AL_SIZE?$AA@ 00401328     alextension.obj
+ 0001:00000330       ??_C@_0M@NCPHFDLN@AL_CHANNELS?$AA@ 00401330     alextension.obj
+ 0001:0000033c       ??_C@_07DPJFNDKP@AL_BITS?$AA@ 0040133c     alextension.obj
+ 0001:00000344       ??_C@_0N@MLFOKGKK@AL_FREQUENCY?$AA@ 00401344     alextension.obj
+ 0001:00000354       ??_C@_0BD@FDANDPBM@AL_FORMAT_STEREO16?$AA@ 00401354     alextension.obj
+ 0001:00000368       ??_C@_0BC@KANEACCC@AL_FORMAT_STEREO8?$AA@ 00401368     alextension.obj
+ 0001:0000037c       ??_C@_0BB@NALEELNF@AL_FORMAT_MONO16?$AA@ 0040137c     alextension.obj
+ 0001:00000390       ??_C@_0BA@MKCFAMDF@AL_FORMAT_MONO8?$AA@ 00401390     alextension.obj
+ 0001:000003a0       ??_C@_0BF@MNIOLCHK@AL_BUFFERS_PROCESSED?$AA@ 004013a0     alextension.obj
+ 0001:000003b8       ??_C@_0BC@MKHHIOHH@AL_BUFFERS_QUEUED?$AA@ 004013b8     alextension.obj
+ 0001:000003cc       ??_C@_0L@EJLEGFMO@AL_STOPPED?$AA@ 004013cc     alextension.obj
+ 0001:000003d8       ??_C@_09PFHDPPMN@AL_PAUSED?$AA@ 004013d8     alextension.obj
+ 0001:000003e4       ??_C@_0L@KOHJBHLC@AL_PLAYING?$AA@ 004013e4     alextension.obj
+ 0001:000003f0       ??_C@_0L@KGHJPELB@AL_INITIAL?$AA@ 004013f0     alextension.obj
+ 0001:000003fc       ??_C@_0BA@POBJFBCN@AL_SOURCE_STATE?$AA@ 004013fc     alextension.obj
+ 0001:0000040c       ??_C@_0BA@GHMCHBPF@AL_MAX_DISTANCE?$AA@ 0040140c     alextension.obj
+ 0001:0000041c       ??_C@_0BD@KNEAHCCF@AL_CONE_OUTER_GAIN?$AA@ 0040141c     alextension.obj
+ 0001:00000430       ??_C@_0BC@NMIIEHKJ@AL_ROLLOFF_FACTOR?$AA@ 00401430     alextension.obj
+ 0001:00000444       ??_C@_0BG@OHLALDBG@AL_REFERENCE_DISTANCE?$AA@ 00401444     alextension.obj
+ 0001:0000045c       ??_C@_0P@JLCPOMCL@AL_ORIENTATION?$AA@ 0040145c     alextension.obj
+ 0001:0000046c       ??_C@_0M@EEGDMAPG@AL_MAX_GAIN?$AA@ 0040146c     alextension.obj
+ 0001:00000478       ??_C@_0M@JDIIHCLH@AL_MIN_GAIN?$AA@ 00401478     alextension.obj
+ 0001:00000484       ??_C@_07NJFDCIAP@AL_GAIN?$AA@ 00401484     alextension.obj
+ 0001:0000048c       ??_C@_09MBGKMNIP@AL_BUFFER?$AA@ 0040148c     alextension.obj
+ 0001:00000498       ??_C@_0L@IDJPCKEK@AL_LOOPING?$AA@ 00401498     alextension.obj
+ 0001:000004a4       ??_C@_0M@FPLCJCHM@AL_VELOCITY?$AA@ 004014a4     alextension.obj
+ 0001:000004b0       ??_C@_0N@BNJADACL@AL_DIRECTION?$AA@ 004014b0     alextension.obj
+ 0001:000004c0       ??_C@_0M@DNJHHLJB@AL_POSITION?$AA@ 004014c0     alextension.obj
+ 0001:000004cc       ??_C@_08CMMOOOEH@AL_PITCH?$AA@ 004014cc     alextension.obj
+ 0001:000004d8       ??_C@_0BE@HBPFPIOE@AL_CONE_OUTER_ANGLE?$AA@ 004014d8     alextension.obj
+ 0001:000004ec       ??_C@_0BE@CDJDAPKK@AL_CONE_INNER_ANGLE?$AA@ 004014ec     alextension.obj
+ 0001:00000500       ??_C@_0BD@DMFLIGEB@AL_SOURCE_RELATIVE?$AA@ 00401500     alextension.obj
+ 0001:00000514       ??_C@_07NCCHPCAD@AL_NONE?$AA@ 00401514     alextension.obj
+ 0001:0000051c       ??_C@_0M@IMOGONBJ@ALC_INVALID?$AA@ 0040151c     alextension.obj
+ 0001:00000528       ??_C@_06GEDADCOJ@EAXSet?$AA@ 00401528     alextension.obj
+ 0001:00000530       ??_C@_06LLELPCCB@EAXGet?$AA@ 00401530     alextension.obj
+ 0001:00000538       ??_C@_06PHAEKKP@EAX2?40?$AA@ 00401538     alextension.obj
+ 0001:00000540       ??_C@_03HBELLIEH@EAX?$AA@  00401540     alextension.obj
+ 0001:00000544       __real@00000000            00401544     allistener.obj
+ 0001:00000548       __real@3f800000            00401548     alsource.obj
+ 0001:0000054c       __real@43b40000            0040154c     alsource.obj
+ 0001:00000550       __real@40000000            00401550     alsource.obj
+ 0001:00000558       __real@0000000000000000    00401558     alstate.obj
+ 0001:00000560       __real@4338000000000000    00401560     alu.obj
+ 0001:00000568       __real@3f000000            00401568     alu.obj
+ 0001:00000570       __real@3fe0000000000000    00401570     alu.obj
+ 0001:00000578       __real@3fd999999999999a    00401578     alu.obj
+ 0001:00000580       __real@3ff0000000000000    00401580     alu.obj
+ 0001:00000588       __real@3b3f112b            00401588     alu.obj
+ 0001:0000058c       __real@43ab8000            0040158c     alu.obj
+ 0001:00000590       __real@404ca5dc0d03cf25    00401590     alu.obj
+ 0001:00000598       __real@46800000            00401598     alu.obj
+ 0001:0000059c       __real@38800000            0040159c     alu.obj
+ 0001:000005a0       __real@4f800000            004015a0     alu.obj
+ 0001:000005a8       __real@409f400000000000    004015a8     alc.obj
+ 0001:000005b0       __real@43aba666            004015b0     alc.obj
+ 0001:000005b4       ??_C@_0BA@OKMIKPCF@alcGetEnumValue?$AA@ 004015b4     alc.obj
+ 0001:000005c4       ??_C@_0BC@EOBDDHNB@alcGetProcAddress?$AA@ 004015c4     alc.obj
+ 0001:000005d8       ??_C@_0BG@BCKLMDNF@alcIsExtensionPresent?$AA@ 004015d8     alc.obj
+ 0001:000005f0       ??_C@_0M@COCPEBFM@alcGetError?$AA@ 004015f0     alc.obj
+ 0001:000005fc       ??_C@_0BC@CNCJIPPP@alcDestroyContext?$AA@ 004015fc     alc.obj
+ 0001:00000610       ??_C@_0BC@KCHOAHOJ@alcSuspendContext?$AA@ 00401610     alc.obj
+ 0001:00000624       ??_C@_0BF@LCJOALEE@alcGetContextsDevice?$AA@ 00401624     alc.obj
+ 0001:0000063c       ??_C@_0BF@LMCHOLFM@alcGetCurrentContext?$AA@ 0040163c     alc.obj
+ 0001:00000654       ??_C@_0BC@JJAEMCJN@alcProcessContext?$AA@ 00401654     alc.obj
+ 0001:00000668       ??_C@_0BG@EDPBABLE@alcMakeContextCurrent?$AA@ 00401668     alc.obj
+ 0001:00000680       ??_C@_0BB@NJPHBINK@alcCreateContext?$AA@ 00401680     alc.obj
+ 0001:00000694       ??_C@_0BE@HPKKKIDA@alcEnumerateDevices?$AA@ 00401694     alc.obj
+ 0001:000006a8       ??_C@_0P@CANICNLE@alcCloseDevice?$AA@ 004016a8     alc.obj
+ 0001:000006b8       ??_C@_0O@BOKFKDBH@alcOpenDevice?$AA@ 004016b8     alc.obj
+ 0001:000006c8       ??_C@_0P@KCJGCIEG@alcGetIntegerv?$AA@ 004016c8     alc.obj
+ 0001:000006d8       ??_C@_0N@KKEPIANP@alcGetString?$AA@ 004016d8     alc.obj
+ 0001:000006e8       ??_C@_0BC@CNMLHGNC@alDopplerVelocity?$AA@ 004016e8     alc.obj
+ 0001:000006fc       ??_C@_0BA@JLDMGHEG@alDopplerFactor?$AA@ 004016fc     alc.obj
+ 0001:0000070c       ??_C@_0BA@PJCANLOK@alDistanceModel?$AA@ 0040170c     alc.obj
+ 0001:0000071c       ??_C@_0BH@IMEDFEGJ@alSourceUnqueueBuffers?$AA@ 0040171c     alc.obj
+ 0001:00000734       ??_C@_0BF@MMDJDGAM@alSourceQueueBuffers?$AA@ 00401734     alc.obj
+ 0001:0000074c       ??_C@_0N@BOFJOJDG@alGetBufferf?$AA@ 0040174c     alc.obj
+ 0001:0000075c       ??_C@_0N@JJMBPFPJ@alGetBufferi?$AA@ 0040175c     alc.obj
+ 0001:0000076c       ??_C@_0N@DHJMBPMC@alBufferData?$AA@ 0040176c     alc.obj
+ 0001:0000077c       ??_C@_0L@ENEGAAJF@alIsBuffer?$AA@ 0040177c     alc.obj
+ 0001:00000788       ??_C@_0BA@GPEKGKGK@alDeleteBuffers?$AA@ 00401788     alc.obj
+ 0001:00000798       ??_C@_0N@BAACMHMN@alGenBuffers?$AA@ 00401798     alc.obj
+ 0001:000007a8       ??_C@_0P@LJBMMGND@alSourceRewind?$AA@ 004017a8     alc.obj
+ 0001:000007b8       ??_C@_0N@IOHKNACK@alSourceStop?$AA@ 004017b8     alc.obj
+ 0001:000007c8       ??_C@_0O@NAMJEPBK@alSourcePause?$AA@ 004017c8     alc.obj
+ 0001:000007d8       ??_C@_0N@IHCLEDMJ@alSourcePlay?$AA@ 004017d8     alc.obj
+ 0001:000007e8       ??_C@_0BA@GGAGEBNI@alSourceRewindv?$AA@ 004017e8     alc.obj
+ 0001:000007f8       ??_C@_0O@KCFAGNHG@alSourceStopv?$AA@ 004017f8     alc.obj
+ 0001:00000808       ??_C@_0P@IENHOOEF@alSourcePausev?$AA@ 00401808     alc.obj
+ 0001:00000818       ??_C@_0O@JLFKIPCH@alSourcePlayv?$AA@ 00401818     alc.obj
+ 0001:00000828       ??_C@_0O@GMPODFIJ@alGetSourcefv?$AA@ 00401828     alc.obj
+ 0001:00000838       ??_C@_0O@EMELMLID@alGetSource3f?$AA@ 00401838     alc.obj
+ 0001:00000848       ??_C@_0N@EBMGLAFN@alGetSourcef?$AA@ 00401848     alc.obj
+ 0001:00000858       ??_C@_0N@MGFOKMJC@alGetSourcei?$AA@ 00401858     alc.obj
+ 0001:00000868       ??_C@_0L@JDACBMLJ@alSourcefv?$AA@ 00401868     alc.obj
+ 0001:00000874       ??_C@_0L@LDLHOCLD@alSource3f?$AA@ 00401874     alc.obj
+ 0001:00000880       ??_C@_09LCIFPAIE@alSourcef?$AA@ 00401880     alc.obj
+ 0001:0000088c       ??_C@_09DFBNOMEL@alSourcei?$AA@ 0040188c     alc.obj
+ 0001:00000898       ??_C@_0L@NHJHGDKM@alIsSource?$AA@ 00401898     alc.obj
+ 0001:000008a4       ??_C@_0BA@DANFDDAB@alDeleteSources?$AA@ 004018a4     alc.obj
+ 0001:000008b4       ??_C@_0N@EPJNJOKG@alGenSources?$AA@ 004018b4     alc.obj
+ 0001:000008c4       ??_C@_0BA@MNHNPKAE@alGetListenerfv?$AA@ 004018c4     alc.obj
+ 0001:000008d4       ??_C@_0BA@ONMIAEAO@alGetListener3f?$AA@ 004018d4     alc.obj
+ 0001:000008e4       ??_C@_0P@BDJKEDPM@alGetListenerf?$AA@ 004018e4     alc.obj
+ 0001:000008f4       ??_C@_0P@JEACFPDD@alGetListeneri?$AA@ 004018f4     alc.obj
+ 0001:00000904       ??_C@_0N@FAIJKLGH@alListenerfv?$AA@ 00401904     alc.obj
+ 0001:00000914       ??_C@_0N@HADMFFGN@alListener3f?$AA@ 00401914     alc.obj
+ 0001:00000924       ??_C@_0M@DFLMIPHJ@alListenerf?$AA@ 00401924     alc.obj
+ 0001:00000930       ??_C@_0M@LCCEJDLG@alListeneri?$AA@ 00401930     alc.obj
+ 0001:0000093c       ??_C@_0P@OMBDDNHL@alGetEnumValue?$AA@ 0040193c     alc.obj
+ 0001:0000094c       ??_C@_0BB@HECKLDLI@alGetProcAddress?$AA@ 0040194c     alc.obj
+ 0001:00000960       ??_C@_0BF@HKDBJMAI@alIsExtensionPresent?$AA@ 00401960     alc.obj
+ 0001:00000978       ??_C@_0L@LHBFAADC@alGetError?$AA@ 00401978     alc.obj
+ 0001:00000984       ??_C@_0M@NMPGMB@alGetString?$AA@ 00401984     alc.obj
+ 0001:00000990       ??_C@_0N@EFPJBNOK@alGetDoublev?$AA@ 00401990     alc.obj
+ 0001:000009a0       ??_C@_0M@MFBDLLDE@alGetFloatv?$AA@ 004019a0     alc.obj
+ 0001:000009ac       ??_C@_0O@MPLBGJAD@alGetIntegerv?$AA@ 004019ac     alc.obj
+ 0001:000009bc       ??_C@_0O@CDAGPAJP@alGetBooleanv?$AA@ 004019bc     alc.obj
+ 0001:000009cc       ??_C@_0M@JPCHELCE@alGetDouble?$AA@ 004019cc     alc.obj
+ 0001:000009d8       ??_C@_0L@BAOGFOLB@alGetFloat?$AA@ 004019d8     alc.obj
+ 0001:000009e4       ??_C@_0N@LCJKEODP@alGetInteger?$AA@ 004019e4     alc.obj
+ 0001:000009f4       ??_C@_0N@GGPBPEPO@alGetBoolean?$AA@ 004019f4     alc.obj
+ 0001:00000a04       ??_C@_0M@GCEBCCEC@alIsEnabled?$AA@ 00401a04     alc.obj
+ 0001:00000a10       ??_C@_09MKHCPMOK@alDisable?$AA@ 00401a10     alc.obj
+ 0001:00000a1c       ??_C@_08JNFNDDGF@alEnable?$AA@ 00401a1c     alc.obj
+ 0001:00000a28       ??_C@_0BH@CBPHODPE@WaveOutThreadDestroyed?$AA@ 00401a28     alc.obj
+ 0001:00000a40       ??_C@_0BK@BODABJMM@WaveOutAllHeadersReturned?$AA@ 00401a40     alc.obj
+ 0001:00000a5c       ??_C@_0N@OEILGHCO@?$CKOpenAL?$CK?4dll?$AA@ 00401a5c     alc.obj
+ 0001:00000a6c       ??_C@_0N@IFEDEMPP@OpenAL32?4dll?$AA@ 00401a6c     alc.obj
+ 0001:00000a7c       ??_C@_01KICIPPFI@?2?$AA@   00401a7c     alc.obj
+ 0001:00000a80       ??_C@_08LFFFCBKF@MMSYSTEM?$AA@ 00401a80     alc.obj
+ 0001:00000a8c       ??_C@_0M@LAJMFNGO@DirectSound?$AA@ 00401a8c     alc.obj
+ 0001:00000a98       ??_C@_0O@FMJMAKDE@DirectSound3D?$AA@ 00401a98     alc.obj
+ 0001:00000aa8       _IID_IKsPropertySet        00401aa8     dxguid:dxguid.obj
+ 0001:00000ab8       _IID_IDirectSound3DBuffer  00401ab8     dxguid:dxguid.obj
+ 0001:00000ac8       _IID_IDirectSound3DListener 00401ac8     dxguid:dxguid.obj
+ 0001:00000ad8       _IID_IDirectSound          00401ad8     dxguid:dxguid.obj
+ 0001:00000ae8       _CLSID_DirectSound         00401ae8     dxguid:dxguid.obj
+ 0001:00000b60       _alListAddEntry@8          00401b60 f   allist.obj
+ 0001:00000b8a       _alListAcquireLock@4       00401b8a f   allist.obj
+ 0001:00000b9b       _alListCreate@4            00401b9b f   allist.obj
+ 0001:00000bd9       _alListFree@4              00401bd9 f   allist.obj
+ 0001:00000bf8       _alListGetData@4           00401bf8 f   allist.obj
+ 0001:00000c02       _alListInitializeEntry@8   00401c02 f   allist.obj
+ 0001:00000c17       _alListIteratorNext@4      00401c17 f   allist.obj
+ 0001:00000c2b       _alListIteratorReset@4     00401c2b f   allist.obj
+ 0001:00000c37       _alListMatchData@8         00401c37 f   allist.obj
+ 0001:00000c52       _alListReleaseLock@4       00401c52 f   allist.obj
+ 0001:00000c63       _alListRemoveEntry@8       00401c63 f   allist.obj
+ 0001:00000ccd       _alIsBufferSafe@8          00401ccd f   albuffer.obj
+ 0001:00000d0a       _alGenBuffers              00401d0a f   albuffer.obj
+ 0001:00000e56       _alDeleteBuffers           00401e56 f   albuffer.obj
+ 0001:00000f8e       _alIsBuffer                00401f8e f   albuffer.obj
+ 0001:00000fe3       _alBufferData              00401fe3 f   albuffer.obj
+ 0001:000011c8       _alGetBufferf              004021c8 f   albuffer.obj
+ 0001:0000124b       _alGetBufferi              0040224b f   albuffer.obj
+ 0001:0000133e       _Releasebuffers@0          0040233e f   albuffer.obj
+ 0001:000013e9       _CheckEAXSupport@0         004023e9 f   aleax.obj
+ 0001:000015f8       _EAXGet@20                 004025f8 f   aleax.obj
+ 0001:000016e0       _EAXSet@20                 004026e0 f   aleax.obj
+ 0001:000017c3       _alGetError                004027c3 f   alerror.obj
+ 0001:000017cc       _alIsExtensionPresent      004027cc f   alextension.obj
+ 0001:00001887       _alGetProcAddress          00402887 f   alextension.obj
+ 0001:0000196f       _alGetEnumValue            0040296f f   alextension.obj
+ 0001:00001a58       _alListenerf               00402a58 f   allistener.obj
+ 0001:00001af8       _alListener3f              00402af8 f   allistener.obj
+ 0001:00001bbc       _alListenerfv              00402bbc f   allistener.obj
+ 0001:00001cdd       _alListeneri               00402cdd f   allistener.obj
+ 0001:00001d3f       _alGetListenerf            00402d3f f   allistener.obj
+ 0001:00001dce       _alGetListener3f           00402dce f   allistener.obj
+ 0001:00001eb0       _alGetListenerfv           00402eb0 f   allistener.obj
+ 0001:00001fad       _alGetListeneri            00402fad f   allistener.obj
+ 0001:00002028       _alIsSourceSafe@8          00403028 f   alsource.obj
+ 0001:0000205c       _alSourcePlaySafe@8        0040305c f   alsource.obj
+ 0001:000020c6       _alSourcePauseSafe@8       004030c6 f   alsource.obj
+ 0001:000020fe       _alSourceStopSafe@8        004030fe f   alsource.obj
+ 0001:00002155       _alSourceRewindSafe@8      00403155 f   alsource.obj
+ 0001:000021c2       _alGenSources              004031c2 f   alsource.obj
+ 0001:000023d9       _alDeleteSources           004033d9 f   alsource.obj
+ 0001:00002589       _alIsSource                00403589 f   alsource.obj
+ 0001:000025ed       _alSourcef                 004035ed f   alsource.obj
+ 0001:00002829       _alSourcefv                00403829 f   alsource.obj
+ 0001:00002941       _alSource3f                00403941 f   alsource.obj
+ 0001:00002a54       _alSourcei                 00403a54 f   alsource.obj
+ 0001:00002ce2       _alGetSourcef              00403ce2 f   alsource.obj
+ 0001:00002dd0       _alGetSource3f             00403dd0 f   alsource.obj
+ 0001:00002ed3       _alGetSourcefv             00403ed3 f   alsource.obj
+ 0001:00002fb1       _alGetSourcei              00403fb1 f   alsource.obj
+ 0001:0000310c       _alSourcePlay              0040410c f   alsource.obj
+ 0001:00003182       _alSourcePlayv             00404182 f   alsource.obj
+ 0001:00003243       _alSourcePause             00404243 f   alsource.obj
+ 0001:000032b9       _alSourcePausev            004042b9 f   alsource.obj
+ 0001:0000337a       _alSourceStop              0040437a f   alsource.obj
+ 0001:000033f0       _alSourceStopv             004043f0 f   alsource.obj
+ 0001:000034b1       _alSourceRewind            004044b1 f   alsource.obj
+ 0001:00003527       _alSourceRewindv           00404527 f   alsource.obj
+ 0001:000035e8       _alSourceQueueBuffers      004045e8 f   alsource.obj
+ 0001:000037cb       _alSourceUnqueueBuffers    004047cb f   alsource.obj
+ 0001:00003950       _alEnable                  00404950 f   alstate.obj
+ 0001:000039ad       _alDisable                 004049ad f   alstate.obj
+ 0001:00003a0a       _alIsEnabled               00404a0a f   alstate.obj
+ 0001:00003a70       _alGetBoolean              00404a70 f   alstate.obj
+ 0001:00003b21       _alGetDouble               00404b21 f   alstate.obj
+ 0001:00003bc0       _alGetFloat                00404bc0 f   alstate.obj
+ 0001:00003c61       _alGetInteger              00404c61 f   alstate.obj
+ 0001:00003d05       _alGetBooleanv             00404d05 f   alstate.obj
+ 0001:00003dd0       _alGetDoublev              00404dd0 f   alstate.obj
+ 0001:00003e81       _alGetFloatv               00404e81 f   alstate.obj
+ 0001:00003f34       _alGetIntegerv             00404f34 f   alstate.obj
+ 0001:00003fe9       _alGetString               00404fe9 f   alstate.obj
+ 0001:000040db       _alDopplerFactor           004050db f   alstate.obj
+ 0001:00004169       _alDopplerVelocity         00405169 f   alstate.obj
+ 0001:000041f7       _alDistanceModel           004051f7 f   alstate.obj
+ 0001:00004286       _aluF2L                    00405286 f   alu.obj
+ 0001:0000429c       _aluF2S                    0040529c f   alu.obj
+ 0001:000042c6       _aluCrossproduct           004052c6 f   alu.obj
+ 0001:00004301       _aluDotproduct             00405301 f   alu.obj
+ 0001:0000431e       _aluNormalize              0040531e f   alu.obj
+ 0001:00004358       _aluMatrixVector           00405358 f   alu.obj
+ 0001:000043b7       _aluCalculateSourceParameters 004053b7 f   alu.obj
+ 0001:000048a3       _aluMixData                004058a3 f   alu.obj
+ 0001:00004de9       _LinearGainToMB@4          00405de9 f   alc.obj
+ 0001:0000501b       _ThreadProc@4              0040601b f   alc.obj
+ 0001:0000511b       _alcExitContext@4          0040611b f   alc.obj
+ 0001:000051ae       _TimerCallback@20          004061ae f   alc.obj
+ 0001:000057aa       _ProcessSource@8           004067aa f   alc.obj
+ 0001:00005942       _UpdateSource@8            00406942 f   alc.obj
+ 0001:00006597       _UpdateListener@4          00407597 f   alc.obj
+ 0001:0000673b       _EnumerateDevicesCallback  0040773b f   alc.obj
+ 0001:00006772       _FillOut3rdPartyFunctionTable@4 00407772 f   alc.obj
+ 0001:00006e0f       _alcSuspendContext         00407e0f f   alc.obj
+ 0001:00006e70       _alcProcessContext         00407e70 f   alc.obj
+ 0001:00006ed1       _alcGetError               00407ed1 f   alc.obj
+ 0001:00006f45       _alcGetString              00407f45 f   alc.obj
+ 0001:00006fe4       _alcGetIntegerv            00407fe4 f   alc.obj
+ 0001:000070bf       _alcDestroyContext         004080bf f   alc.obj
+ 0001:00007152       _alcGetCurrentContext      00408152 f   alc.obj
+ 0001:00007158       _alcGetContextsDevice      00408158 f   alc.obj
+ 0001:0000718e       _alcMakeContextCurrent     0040818e f   alc.obj
+ 0001:00007210       _alcOpenDevice             00408210 f   alc.obj
+ 0001:00007b53       _alcCloseDevice            00408b53 f   alc.obj
+ 0001:00007cdd       _alcEnumerateDevices       00408cdd f   alc.obj
+ 0001:00007fbd       _alcIsExtensionPresent     00408fbd f   alc.obj
+ 0001:00008033       _alcGetProcAddress         00409033 f   alc.obj
+ 0001:000080a4       _alcGetEnumValue           004090a4 f   alc.obj
+ 0001:000080ce       _alcUpdateContext@12       004090ce f   alc.obj
+ 0001:0000815d       _alcInitContext@4          0040915d f   alc.obj
+ 0001:000081f2       _alcCreateContext          004091f2 f   alc.obj
+ 0001:00008298       _DllMain@12                00409298 f   openal32.obj
+ 0001:000082d0       __ftol                     004092d0 f   msvcrt:msvcrt.dll
+ 0001:000082d6       __CIacos                   004092d6 f   msvcrt:msvcrt.dll
+ 0001:000082dc       __IMPORT_DESCRIPTOR_msvcrt 004092dc     msvcrt:msvcrt.dll
+ 0001:000082f0       __IMPORT_DESCRIPTOR_KERNEL32 004092f0     kernel32:KERNEL32.dll
+ 0001:00008304       __IMPORT_DESCRIPTOR_ole32  00409304     ole32:ole32.dll
+ 0001:00008318       __IMPORT_DESCRIPTOR_WINMM  00409318     winmm:WINMM.dll
+ 0001:0000832c       __IMPORT_DESCRIPTOR_USER32 0040932c     user32:USER32.dll
+ 0001:00008340       __NULL_IMPORT_DESCRIPTOR   00409340     msvcrt:msvcrt.dll
+ 0002:000bbb10       _alcContextList            004c5b10     alc.obj
+ 0002:000bbb14       _alcCurrentContext         004c5b14     alc.obj
+
+ entry point at        0001:00008298
+
+ Static symbols
+
+ 0001:00004e17       _alcDirectSoundProc@20     00405e17 f   alc.obj
+ 0001:00004fc4       _alcWaveOutProc@20         00405fc4 f   alc.obj

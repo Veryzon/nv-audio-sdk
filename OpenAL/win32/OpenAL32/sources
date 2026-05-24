@@ -1,0 +1,57 @@
+##*****************************************************************************
+##*****************************************************************************
+##
+## sources
+##
+## Description:
+## This file contains the information to build the OpenAL DLL.
+##
+##
+## Copyright (c) 2002 NVIDIA Corporation.
+##
+##*****************************************************************************
+##*****************************************************************************
+
+
+
+
+TARGETNAME=OpenAL32
+TARGETPATH=obj
+TARGETTYPE=DYNLINK
+USE_MSVCRT=1
+DLLENTRY=DllMain
+
+NOT_LEAN_AND_MEAN = 1
+USER_C_FLAGS = -DNVWINAPP -DWIN32 -D_MBCS -D_OPENAL32LIB -D_USRDLL -D_WINDOWS
+USE_MAPSYM = YEP
+
+TARGETLIBS=\
+    $(SDK_LIB_PATH)\uuid.lib            \
+    $(SDK_LIB_PATH)\kernel32.lib        \
+    $(SDK_LIB_PATH)\advapi32.lib        \
+    $(SDK_LIB_PATH)\ole32.lib           \
+    $(SDK_LIB_PATH)\winmm.lib           \
+    $(SDK_LIB_PATH)\user32.lib          \
+    $(BUILD_TOOLS_DIR)\sdk\DirectX8\lib\dxguid.lib
+
+
+INCLUDES=\
+    $(SDK_INC_PATH)\inc;                \
+    ..\..;                              \
+    $(BUILD_TOOLS_DIR)\sdk\winxp\Include
+
+
+SOURCES=\
+    $(TARGETNAME).rc    \
+    alList.c            \
+    alBuffer.c          \
+    alEax.c             \
+    alError.c           \
+    alExtension.c       \
+    alListener.c        \
+    alSource.c          \
+    alState.c           \
+    alu.c               \
+    alc.c               \
+    OpenAL32.c
+

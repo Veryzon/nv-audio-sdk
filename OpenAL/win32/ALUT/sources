@@ -1,0 +1,47 @@
+##*****************************************************************************
+##*****************************************************************************
+##
+## sources
+##
+## Description:
+## This file contains the information to build the ALut DLL.
+##
+##
+## Copyright (c) 2002 NVIDIA Corporation.
+##
+##*****************************************************************************
+##*****************************************************************************
+
+
+
+
+TARGETNAME=ALut
+TARGETPATH=obj
+TARGETTYPE=DYNLINK
+USE_MSVCRT=1
+
+NOT_LEAN_AND_MEAN = 1
+USER_C_FLAGS = -DNVWINAPP -DWIN32 -D_MBCS -D_OPENAL32LIB
+USE_MAPSYM = YEP
+
+TARGETLIBS=\
+    $(SDK_LIB_PATH)\uuid.lib            \
+    $(SDK_LIB_PATH)\kernel32.lib        \
+    $(SDK_LIB_PATH)\advapi32.lib        \
+    $(SDK_LIB_PATH)\ole32.lib           \
+    $(SDK_LIB_PATH)\winmm.lib           \
+    $(SDK_LIB_PATH)\user32.lib          \
+    $(BUILD_TOOLS_DIR)\sdk\DirectX8\lib\dxguid.lib\
+    ..\OpenAL32\$(O)\OpenAL32.lib
+
+
+INCLUDES=\
+    $(SDK_INC_PATH)\inc;                \
+    ..\..;                              \
+    $(BUILD_TOOLS_DIR)\sdk\winxp\Include
+
+
+SOURCES=\
+    $(TARGETNAME).rc    \
+    ALut.c
+

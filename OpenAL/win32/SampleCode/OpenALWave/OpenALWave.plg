@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: OpenALWave - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/OpenALWave.res" /d "_DEBUG" "C:\sw\main\drivers\audio\SDK\OpenAL\win32\SampleCode\OpenALWave\OpenALWave.rc"" 
+Creating temporary file "C:\DOCUME~1\SPETER~1.COM\LOCALS~1\Temp\RSP71D0.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "../../.." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/OpenALWave.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\sw\main\drivers\audio\SDK\OpenAL\win32\SampleCode\Common\OpenALHelp.cpp"
+"C:\sw\main\drivers\audio\SDK\OpenAL\win32\SampleCode\OpenALWave\OpenALWave.cpp"
+"C:\sw\main\drivers\audio\SDK\OpenAL\win32\SampleCode\OpenALWave\OpenALWaveDlg.cpp"
+"C:\sw\main\drivers\audio\SDK\OpenAL\win32\SampleCode\Common\wavefile.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SPETER~1.COM\LOCALS~1\Temp\RSP71D0.tmp" 
+Creating temporary file "C:\DOCUME~1\SPETER~1.COM\LOCALS~1\Temp\RSP71D1.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "../../.." /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/OpenALWave.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\sw\main\drivers\audio\SDK\OpenAL\win32\SampleCode\OpenALWave\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SPETER~1.COM\LOCALS~1\Temp\RSP71D1.tmp" 
+Creating temporary file "C:\DOCUME~1\SPETER~1.COM\LOCALS~1\Temp\RSP71D2.tmp" with contents
+[
+winmm.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/OpenALWave.pdb" /debug /machine:I386 /out:"Debug/OpenALWave.exe" /pdbtype:sept 
+.\Debug\OpenALHelp.obj
+.\Debug\OpenALWave.obj
+.\Debug\OpenALWaveDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\wavefile.obj
+.\Debug\OpenALWave.res
+]
+Creating command line "link.exe @C:\DOCUME~1\SPETER~1.COM\LOCALS~1\Temp\RSP71D2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+OpenALHelp.cpp
+OpenALWave.cpp
+OpenALWaveDlg.cpp
+wavefile.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+OpenALWave.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
